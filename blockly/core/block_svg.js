@@ -437,8 +437,6 @@ Blockly.BlockSvg.prototype.removeDragging = function() {
  * Lays out and reflows a block based on its contents and settings.
  */
 Blockly.BlockSvg.prototype.render = function() {
-  console.log(this.parent);
-  console.log('render block of type: ' + this.block_.type);
   this.block_.rendered = true;
 
   var cursorX = Blockly.BlockSvg.SEP_SPACE_X;
