@@ -69,6 +69,10 @@ button:hover {
   box-shadow: 2px 2px 5px #888;
 }
 
+#wallExplanation {
+  margin-top: 10px;
+}
+
 #runButtonDiv {
   text-align: center;
   padding-top: 1em;
