@@ -1,0 +1,79 @@
+/* MAZE_HACKED.CSS*/
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 120%;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+a:link {
+  color: #777;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color:  #d43;
+  text-decoration: bold;
+}
+
+a:active {
+  color:  #e54;
+  text-decoration: none;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  margin-right: 12px;
+  margin-left: 0;
+  padding: 10px;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #eee;
+  color: black;
+  width: 175px;
+}
+
+button.clear {
+  border: 1px solid #0093E0;
+  background-color: #0093E0;
+  color: white;
+}
+
+button.launch {
+  border: 1px solid #d43;
+  background-color: #d43;
+  color: white;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+button:hover {
+  box-shadow: 2px 2px 5px #888;
+}
+
+#runButtonDiv {
+  text-align: center;
+  padding-top: 1em;
+}
+
+#blockButtonDiv {
+  float: left;
+}
