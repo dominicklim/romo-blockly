@@ -36,12 +36,12 @@ Blockly.Trashcan = function(getMetrics) {
  * URL of the trashcan image (minus lid).
  * @private
  */
-Blockly.Trashcan.prototype.BODY_URL_ = 'blockly/media/trashbody.png';
+Blockly.Trashcan.prototype.BODY_URL_ = 'media/trashbody.png';
 /**
  * URL of the lid image.
  * @private
  */
-Blockly.Trashcan.prototype.LID_URL_ = 'blockly/media/trashlid.png';
+Blockly.Trashcan.prototype.LID_URL_ = 'media/trashlid.png';
 /**
  * Width of both the trash can and lid images.
  * @private

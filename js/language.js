@@ -97,7 +97,7 @@ Blockly.Language.maze_moveSteps.DIRECTIONS =
     [['forward', 'moveForwardSteps'], ['backward', 'moveBackwardSteps']];
 
 Blockly.JavaScript.maze_moveSteps = function() {
-  var steps = Blockly.JavaScript.valueToCode(this, 'STEPS', 
+  var steps = Blockly.JavaScript.valueToCode(this, 'STEPS',
       Blockly.JavaScript.ORDER_NONE) || '0';
   // Generate JavaScript for moving forward or backwards.
   return 'Maze.' + this.getTitleValue('DIR') + '("' + this.id + '", "' + steps + '");\n';
@@ -259,7 +259,7 @@ function init() {
   }
   Blockly.Language = newLanguage;
 
-  Blockly.inject(document.body, {path: '../../'});
+  Blockly.inject(document.body);
 
   if (window.parent.Maze) {
     // Let the top-level application know that Blockly is ready.

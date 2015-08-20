@@ -48,7 +48,7 @@ Blockly.inject = function(container, opt_options) {
 Blockly.parseOptions_ = function(options) {
   Blockly.RTL = !!options['rtl'];
   Blockly.editable = !options['readOnly'];
-  Blockly.pathToBlockly = options['path'] || './';
+  Blockly.pathToBlockly = options['path'] || './blockly/';
 };
 
 /**
@@ -60,7 +60,7 @@ Blockly.createDom_ = function(container) {
   // Load CSS.
   //<link href="blockly.css" rel="stylesheet" type="text/css" />
   var link = goog.dom.createDom('link', {
-      'href': Blockly.pathToBlockly + 'blockly/media/blockly.css',
+      'href': Blockly.pathToBlockly + 'media/blockly.css',
       'rel': 'stylesheet',
       'type': 'text/css',
       'onload': 'Blockly.cssLoaded()'});

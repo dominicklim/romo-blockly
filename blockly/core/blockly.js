@@ -43,7 +43,7 @@ var Blockly = {};
  * Path to Blockly's directory.  Can be relative, absolute, or remote.
  * Used for loading additional resources.
  */
-Blockly.pathToBlockly = './';
+Blockly.pathToBlockly = './blockly/';
 
 /**
  * Required name space for SVG elements.
@@ -473,7 +473,7 @@ Blockly.setCursorHand_ = function(closed) {
      http://code.google.com/p/chromium/issues/detail?id=1446 */
   var cursor = '';
   if (closed) {
-    cursor = 'url(' + Blockly.pathToBlockly + 'blockly/media/handclosed.cur) 7 3, auto';
+    cursor = 'url(' + Blockly.pathToBlockly + 'media/handclosed.cur) 7 3, auto';
   }
   if (Blockly.selected) {
     Blockly.selected.getSvgRoot().style.cursor = cursor;
